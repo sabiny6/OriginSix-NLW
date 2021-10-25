@@ -1,0 +1,16 @@
+/* RESET -> resetar o CSS (pois o navegador já tem seu css simples de início de página*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+:root {
+  font-size: 100%; --> 16px
+} 
+*/
+
+#header {
+  height: 4.5rem; /*16px . 4.5rem = 72px*/
+}
