@@ -5,19 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
-    <!--
-      o segundo '<meta/>' configura que o conteúdo da 'viewport' deve se ajustar à proporção do dispositivo (se for mobile, desktop, etc)
-
-      deixa o documento muito mais flexível
-    -->
-    <!--
-      meta -> configuração da própria página
-    -->
 
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- FONTS -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
@@ -34,25 +26,28 @@
 
     <main>
       <section class="section" id="home">
-        <div class="container">
-          <img
-            src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-            alt="Mulher sorrindo secando os cabelos de outra mulher"
-          />
-        </div>
-        <div>
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Mulher sorrindo penteando outra mulher"
+            />
+          </div>
           <div class="text">
             <h1>Saúde natural para os seus cabelos</h1>
-          <p>
-            Um salão exclusivo em São Paulo, especializado em tratamentos
-            naturais.
-          </p>
-          <a class="button" href="#">Agendar um horário</a>
-          <text></text>
+            <p>
+              Um salão exclusivo em São Paulo, especializado em tratamentos
+              naturais.
+            </p>
+            <a class="button" href="#">Agendar um horário</a>
+          </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
       <section class="section">
-        <div class="container"></div>
+        <div class="container">outra section</div>
       </section>
     </main>
   </body>
