@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
 
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -18,7 +21,15 @@
   </head>
   <body>
     <header id="header">
-      <nav class="container show">
+      <div>
+        <img
+          class="logo-hotel"
+          src="assets/images/logo-hotel.jpg"
+          alt="Imagem da logo do hotel"
+        />
+      </div>
+
+      <nav class="container">
         <a class="logo" href="#">hotel<span>Amazônia</span>.</a>
         <!-- menu -->
         <div class="menu">
@@ -31,8 +42,8 @@
           </ul>
         </div>
         <!-- /menu -->
-        <div class="open">...</div>
-        <div class="close">X</div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -59,16 +70,66 @@
       <div class="divider-1"></div>
 
       <section class="section" id="about">
-        <div class="container grid">Sobre</div>
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://media.istockphoto.com/photos/african-american-concierge-checking-in-two-smiling-hotel-guests-picture-id1304058498?b=1&k=20&m=1304058498&s=170667a&w=0&h=NWLzholSypx7Dq8tSZseeESB7xqAFFe_3Uh1qmjiR4k="
+              alt="Mulher atendendo hóspedes em uma recepção"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">O hotel</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates ipsam magni fugit praesentium? Quasi ab quae, debitis
+              quas quo deleniti expedita omnis eum distinctio necessitatibus
+              numquam sed exercitationem at repudiandae.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+              laudantium porro ullam, ad repudiandae minima esse amet autem
+              dolore earum molestiae, architecto quaerat corporis corrupti
+              cupiditate neque praesentium magnam culpa?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Temporibus impedit soluta sequi? Deserunt, tempore. Expedita sit
+              ipsam quae accusamus natus exercitationem maiores soluta unde cum,
+              eaque assumenda quos sequi ut.
+            </p>
+          </div>
+        </div>
       </section>
 
+      <div class="divider-2"></div>
+
       <section class="section" id="reserves">
-        <div class="container grid">Reservas</div>
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1504575958497-ccdd586c2997?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fGFtYXpvbiUyMHJhaW5mb3Jlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+              alt="Coala"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Reservas</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates ipsam magni fugit praesentium? Quasi ab quae, debitis
+              quas quo deleniti expedita omnis eum distinctio necessitatibus
+              numquam sed exercitationem at repudiandae.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section class="section">
         <div class="container">outra section</div>
       </section>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
