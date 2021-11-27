@@ -4,7 +4,7 @@
     <!-- PAGE INFO -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OriginSix</title>
+    <title>PROJETO PIM 4</title>
 
     <!-- ICONS -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
@@ -38,7 +38,7 @@
             <li><a class="title" href="#home">Início</a></li>
             <li><a class="title" href="#about">O Hotel</a></li>
             <li><a class="title" href="#reserves">Reservas</a></li>
-            <li><a class="title" href="contact">Contato</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
           </ul>
         </div>
         <!-- /menu -->
@@ -57,12 +57,12 @@
             />
           </div>
           <div class="text">
-            <h2 class="title">Saúde natural para os seus cabelos</h2>
+            <h2 class="title">Um hotel perfeito para sua acomodação</h2>
             <p>
-              Um salão exclusivo em São Paulo, especializado em tratamentos
-              naturais.
+              Um hotel exclusivo em Manaus, especializado na melhor
+              hospitalidade.
             </p>
-            <a class="button" href="#">Agendar um horário</a>
+            <a class="button" href="#reserves">Fazer uma reserva</a>
           </div>
         </div>
       </section>
@@ -107,28 +107,100 @@
 
       <section class="section" id="reserves">
         <div class="container grid">
-          <div class="image">
-            <img
-              src="https://images.unsplash.com/photo-1504575958497-ccdd586c2997?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fGFtYXpvbiUyMHJhaW5mb3Jlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-              alt="Coala"
-            />
-          </div>
           <div class="text">
-            <h2 class="title">Reservas</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates ipsam magni fugit praesentium? Quasi ab quae, debitis
-              quas quo deleniti expedita omnis eum distinctio necessitatibus
-              numquam sed exercitationem at repudiandae.
-            </p>
+            <header>
+              <h2 class="title">Reservas</h2>
+            </header>
+            <div class="card-reserve">
+              <h3 class="title">Faça sua reserva!</h3>
+              <div class="caixas grid">
+                <div>
+                  <input
+                    type="text"
+                    name="cidade ou hotel"
+                    size="40"
+                    placeholder="Cidade ou Hotel"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    name="datas"
+                    size="40"
+                    placeholder="Selecione datas"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    name="how many peoples"
+                    size="40"
+                    placeholder="1 Quarto, 1 Adulto"
+                  />
+                </div>
+                <div>
+                  <a class="button" href="#">RESERVAR</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section">
-        <div class="container">outra section</div>
+      <div class="divider-2"></div>
+
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato conosco!</h2>
+            <p>
+              Entre em contato com o Hotel Palace Amazônia, queremos tirar suas
+              dúvidas, ouvir suas críticas e sugestões.
+            </p>
+            <a
+              class="button"
+              href="https://api.whatsapp.com/send?phone=+5592998456754&text=Oi! Gostaria de agendar um horário"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>92 99845-6754</li>
+              <li><i class="icon-map-pin"></i>Av. Djalma Batista, XXX</li>
+              <li><i class="icon-mail"></i>contato@hotelamazonia.com</li>
+            </ul>
+          </div>
+        </div>
       </section>
+
+      <div class="divider-1"></div>
     </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">hotel<span>Amazônia</span>.</a>
+          <p>©2021 hotelAmazônia.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social">
+          <a href="https://instagram.com" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="icon-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="main.js"></script>
   </body>
